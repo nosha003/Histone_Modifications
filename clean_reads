@@ -1,0 +1,2 @@
+module load fastqc/0.10.1
+fastqc -o /scratch.global/nosha003/wenli_data/fastqc --noextract -f fastq /scratch.global/nosha003/wenli_data/fastq/${SAMPLE}
